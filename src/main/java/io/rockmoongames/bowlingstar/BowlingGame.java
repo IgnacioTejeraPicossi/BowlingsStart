@@ -28,7 +28,7 @@ public class BowlingGame {
         // Loop over all 10 frames
         while (frames < 10) {
 
-            // If spare, then score = 10 + knocked down pins of the next roll
+            // If spare, then score = 10 + knocked down pins of the next roll Ignacio comment
             if (isSpare(rollIndex)) {
                 score += 10 + rolls[rollIndex + 2];
                 rollIndex += 2; // move roll index forward to the first roll of the next frame
